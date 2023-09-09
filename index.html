@@ -4,27 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Screen</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section>
-      <div>
-        <form action="">
-          <fieldset>
-            <h1>Login</h1>
-            <label for="email"
-              >Email<input type="text" class="input-label" required
-            /></label>
-            <label for=""
-              >Password<input type="text" class="input-label" required
-            /></label>
-            <p>Forget password?</p>
-            <input type="button" value="Continue" />
-            <p>Don't have an account? <a href="http://">Create one</a></p>
-            <p>Or</p>
-            <input type="button" value="Sign in with Google" />
-          </fieldset>
-        </form>
-      </div>
-    </section>
+    <div class="container">
+      <form action="" class="flexbox">
+        <h1>Login</h1>
+        <div class="input-box">
+          <label for="email"
+            >Email<input type="text" class="input-label" required
+          /></label>
+        </div>
+
+        <div class="input-box">
+          <label for=""
+            >Password<input type="text" class="input-label" required
+          /></label>
+        </div>
+
+        <div class="remember-me">
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Remember me</label
+          >
+          <a href="#">Forget password?</a>
+        </div>
+
+        <div class="create-one">
+          <input type="button" value="Continue" class="continue" />
+          <p>Don't have an account? <a href="#">Create one</a></p>
+        </div>
+
+        <p>Or</p>
+        <input type="button" value="Sign in with Google" class="google" />
+      </form>
+    </div>
   </body>
 </html>
