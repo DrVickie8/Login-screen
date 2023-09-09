@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Exo 2", sans-serif;
   border: 5px solid red;
 }
 
