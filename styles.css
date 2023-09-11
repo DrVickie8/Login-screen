@@ -49,6 +49,12 @@ input {
   margin-right: 5px; */
 }
 
+::placeholder {
+  color: #fff;
+  font-size: medium;
+  /* margin-left: ; */
+}
+
 /* .input-box i {
   position: absolute;
 } */
